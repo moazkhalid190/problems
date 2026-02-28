@@ -14,13 +14,11 @@ void func(int arr[],int n) {
 int main() {
     int N;
     cin >> N;
-    // error ==>>> arr[N]?!
-
-    int arr[99999];
 
     for (int i = 0; i < N; i++)
         cin >> arr[i];
     func(arr,N - 1);
 
     return 0;
+
 }
